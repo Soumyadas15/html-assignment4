@@ -50,6 +50,8 @@ html, body {
     overflow-x: hidden;
 }
 
+/* Page 1 Styles */
+
 #page1 {
     min-height: 100vh;
     width: 100%;
@@ -188,6 +190,8 @@ nav h3 {
     top: 65vh;
 }
 
+/* Page 2 Styles */
+
 #page2 {
     min-height: 100vh;
     width: 100%;
@@ -263,8 +267,6 @@ nav h3 {
     z-index: 9;
     
 }
-
-
 #page-bottom h1 {
     font-size: 4vw;
     width: 100%;
@@ -280,10 +282,13 @@ nav h3 {
     font-weight: 100;
 }
 
+
 .education-item{
     display: flex;
     align-items: center;
 }
+
+/* Skill section Styles */
 
 
 ul {
@@ -434,6 +439,11 @@ ol li h1:hover::after
     pointer-events: none !important; 
 }
 
+
+/* Footer Styles */
+
+
+
 #footer {
     position: fixed;
     height: 105vh;
@@ -517,6 +527,8 @@ ol li h1:hover::after
     border-bottom-right-radius: 20px;
 
 }
+
+/* Mobile view */
 
 @media (max-width:600px) {
 
