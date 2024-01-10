@@ -313,14 +313,12 @@ ol {
     list-style-type: none;
     counter-reset: li;
 }
-
 ol li {
     color: black;
     padding: 5px;
     margin-left: 35px;
     position: relative;
 }
-
 ol li::before {
     content: counter(li) ".";
     counter-increment: li;
